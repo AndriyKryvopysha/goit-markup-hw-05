@@ -288,7 +288,6 @@ ul {
 
 .project-overlay {
   position: absolute;
-  transform: translateY(100%);
   width: 370px;
   padding: 63px 24px;
   font-family: Roboto;
@@ -298,6 +297,7 @@ ul {
   line-height: 1.56;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
