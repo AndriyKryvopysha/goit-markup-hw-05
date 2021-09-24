@@ -251,7 +251,6 @@ ul {
 }
 
 .projects-container {
-  position: relative;
   display: flex;
   flex-direction: column;
   flex-basis: 370px;
@@ -286,8 +285,14 @@ ul {
   margin-bottom: 0;
 }
 
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
 .project-overlay {
   position: absolute;
+  top: 0;
   width: 370px;
   padding: 63px 24px;
   font-family: Roboto;
@@ -429,7 +434,6 @@ ul {
 
 .image {
   display: block;
-  overflow: visible;
 }
 
 .example-text {
